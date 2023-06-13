@@ -929,7 +929,8 @@
         "net7.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://gitlab.com/api/v4/projects/41368496/packages/nuget/index.json": {}
       },
       "frameworks": {
         "net7.0": {
