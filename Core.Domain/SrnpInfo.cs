@@ -14,4 +14,5 @@ public class SrnpInfo
     public string[]? TechCategory { get; set; }
     public string[]? SrnpCode { get; set; }
     public Dictionary<string,string>? SrnpTypeCode { get; set; } 
+    public int SrnpCount { get; set; }
 }

@@ -911,7 +911,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nurlu\\.nuget\\packages\\": {}
+    "C:\\Users\\nurlu\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -922,6 +923,9 @@
       "packagesPath": "C:\\Users\\nurlu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\nurlu\\RiderProjects\\SrnpTask\\Core.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\nurlu\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],

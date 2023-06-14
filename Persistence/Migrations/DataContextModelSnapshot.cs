@@ -71,6 +71,9 @@ namespace Core.Persistence.Migrations
                     b.Property<string[]>("SrnpCode")
                         .HasColumnType("text[]");
 
+                    b.Property<int>("SrnpCount")
+                        .HasColumnType("integer");
+
                     b.Property<Dictionary<string, string>>("SrnpTypeCode")
                         .HasColumnType("hstore");
 

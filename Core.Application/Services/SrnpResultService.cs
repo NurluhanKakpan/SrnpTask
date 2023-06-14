@@ -40,7 +40,6 @@ public class SrnpResultService : ISrnpResultService
     private  async Task<List<SrnpResultDto>> GetListOfSrnpResultDto(List<string> patterns, List<string> srnps, int i)
     {
         var listOfResultSrnpResultDto = new List<SrnpResultDto>();
-        var forbiddenSeries = await _srnpInfoRepository.GetForbiddenSeries();
         var typesOfSrnp = await _srnpInfoRepository.GetTypeByRegex(patterns[i]);
         for (var j = 0; j < typesOfSrnp.Count; j++)
         {
@@ -59,7 +58,8 @@ public class SrnpResultService : ISrnpResultService
                         TypePerson = srnpInfo.TypePerson,
                         TechCategory = srnpInfo.TechCategory,
                         SrnpCode = srnpInfo.SrnpTypeCode![typesOfSrnp[j][k]],
-                        IsForbiddenSeries = false
+                        IsForbiddenSeries = false,
+                        SrnpCount = srnpInfo.SrnpCount 
                     };
                 if ( await IsForbiddenSeries(srnp.SrnpSeries))
                 {
@@ -91,7 +91,6 @@ public class SrnpResultService : ISrnpResultService
                 listOfResultSrnpResultDto.Add(srnp);
             }
         }
-
         return listOfResultSrnpResultDto;
     }
     private string GetWord(int place,string pattern,string srnp)
@@ -152,7 +151,6 @@ public class SrnpResultService : ISrnpResultService
                 }
             }
         }
-
         srnpPrice ??= await _srnpPriceRepository.GetSrnpPriceIfNull(isSameLetter);
         return srnpPrice!;
     }
