@@ -18,5 +18,5 @@ public class SrnpResultDto
     public string[]? TechCategory { get; set; }
     public string? SrnpCode { get; set; }
     public bool? IsForbiddenSeries { get; set; }
-    public int SrnpCount { get; set; }
+    public int? SrnpCount { get; set; }
 }
