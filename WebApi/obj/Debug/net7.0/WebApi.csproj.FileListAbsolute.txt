@@ -74,11 +74,10 @@ C:\Users\nurlu\RiderProjects\SrnpTask\Webapi\bin\Debug\net7.0\runtimes\win-arm\n
 C:\Users\nurlu\RiderProjects\SrnpTask\Webapi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\nurlu\RiderProjects\SrnpTask\Webapi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\nurlu\RiderProjects\SrnpTask\Webapi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\nurlu\RiderProjects\SrnpTask\Webapi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\nurlu\RiderProjects\SrnpTask\Webapi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\nurlu\RiderProjects\SrnpTask\Webapi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\nurlu\RiderProjects\SrnpTask\Webapi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\nurlu\RiderProjects\SrnpTask\Webapi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\nurlu\RiderProjects\SrnpTask\Webapi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\nurlu\RiderProjects\SrnpTask\WebApi\bin\Debug\net7.0\Persistence.dll
 C:\Users\nurlu\RiderProjects\SrnpTask\WebApi\bin\Debug\net7.0\Persistence.pdb
+C:\Users\nurlu\RiderProjects\SrnpTask\WebApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nurlu\RiderProjects\SrnpTask\WebApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll

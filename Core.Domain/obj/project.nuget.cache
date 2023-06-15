@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I1yF/5EEeomtqmXbBgkqsbTjlxF6Q2VFLGP0HOg2ijS2vnPf1Z/XObTaLfAjGuVSHTrz6pBFEKP0udH8BDeMrg==",
+  "dgSpecHash": "qS8X+ZJTCrP/i1QUKEUEX5j5WukUpua+LJLo9VO1vxU8lNIsV7RXKwzCypK0M+wG53RvYRN+xTooPAM3kDedlQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\nurlu\\RiderProjects\\SrnpTask\\Core.Domain\\Core.Domain.csproj",
   "expectedPackageFiles": [
@@ -20,8 +20,10 @@
     "C:\\Users\\nurlu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\nurlu\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\nurlu\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\nurlu\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "C:\\Users\\nurlu\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\nurlu\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
+    "C:\\Users\\nurlu\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
     "C:\\Users\\nurlu\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\nurlu\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],

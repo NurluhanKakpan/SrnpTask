@@ -1,6 +1,4 @@
-using Core.Application;
 using Core.Application.Interfaces;
-using Core.Application.Services;
 using Core.Persistence;
 using Core.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
