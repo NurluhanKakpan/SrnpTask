@@ -1,0 +1,34 @@
+﻿version: "3.7"
+
+services:
+
+  api:
+    build: .
+    ports:
+      - 5154:80
+    depends_on:
+      - db
+    networks: 
+      - mynetwork
+
+  db:
+    image: "postgres:13"
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: srnpparsedb
+      POSTGRES_USER: srnpparseuser
+      POSTGRES_PASSWORD: 12345678
+    networks: 
+      - mynetwork
+    volumes:
+      - srnpparse_db_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+networks:
+  mynetwork:
+    
+volumes:
+  srnpparse_db_data:
+    
